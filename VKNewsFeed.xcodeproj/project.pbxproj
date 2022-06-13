@@ -15,6 +15,7 @@
 		D4EE407128539A13000B3EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EE406F28539A13000B3EC6 /* LaunchScreen.storyboard */; };
 		D4EE407B285538E7000B3EC6 /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EE407A285538E7000B3EC6 /* VKSdkFramework.framework */; };
 		D4EE407C285538E7000B3EC6 /* VKSdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4EE407A285538E7000B3EC6 /* VKSdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4EE407F28574FE0000B3EC6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE407E28574FE0000B3EC6 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		D4EE407028539A13000B3EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4EE407228539A13000B3EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EE407A285538E7000B3EC6 /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = Carthage/Build/iOS/VKSdkFramework.framework; sourceTree = "<group>"; };
+		D4EE407E28574FE0000B3EC6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				D4EE406628539A10000B3EC6 /* SceneDelegate.swift */,
 				D4EE406828539A10000B3EC6 /* ViewController.swift */,
 				D4EE406A28539A10000B3EC6 /* Main.storyboard */,
+				D4EE408028574FE8000B3EC6 /* Services */,
 				D4EE406D28539A13000B3EC6 /* Assets.xcassets */,
 				D4EE406F28539A13000B3EC6 /* LaunchScreen.storyboard */,
 				D4EE407228539A13000B3EC6 /* Info.plist */,
@@ -92,6 +95,14 @@
 				D4EE407A285538E7000B3EC6 /* VKSdkFramework.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4EE408028574FE8000B3EC6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE407E28574FE0000B3EC6 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				D4EE406928539A10000B3EC6 /* ViewController.swift in Sources */,
 				D4EE406528539A10000B3EC6 /* AppDelegate.swift in Sources */,
 				D4EE406728539A10000B3EC6 /* SceneDelegate.swift in Sources */,
+				D4EE407F28574FE0000B3EC6 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
